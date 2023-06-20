@@ -4,7 +4,7 @@ import Brasil from "../commom/Brasil";
 
 export default function Mapa() {
     return (
-        <section>
+        <section class="sectionbege">
             <TituloSubtitulo tit={titulosDescricoes["mapa"].titulo} desc={titulosDescricoes["mapa"].descricao}/>
             <Brasil/>
         </section>

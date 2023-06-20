@@ -6,8 +6,8 @@ export default function Whatsapp() {
             phoneNumber='190'
             accountName='Roberto Campos Neto'
             statusMessage=''
-            chatMessage='eai deLisia, vamo tc?'
-            placeholder='vamo dms, mete 3 buneco em min'
+            chatMessage='Olá, em que podemos ajudar?'
+            placeholder='Olá! meu nome é...'
             allowEsc={true}
             allowClickAway={true} />
     )

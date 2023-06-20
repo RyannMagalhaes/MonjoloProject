@@ -3,7 +3,7 @@ import titulosDescricoes from "../../../js/titulosDescricoesSecoes.js"
 
 export default function Formulario(){
     return(
-        <section>
+        <section class="sectionlaranja">
             <TituloSubtitulo tit={titulosDescricoes["formulario"].titulo} />
         </section>
     )

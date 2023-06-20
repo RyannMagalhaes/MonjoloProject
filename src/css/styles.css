@@ -4,14 +4,8 @@
   padding: 0px;
 }
 
-header,
-main,
-footer {
-  border: 1px solid black;
-}
-
-section{
-  border: 1px solid red;
+header,footer{
+  background-color: #403F3F;
 }
 
 section h1,p{
@@ -19,7 +13,24 @@ section h1,p{
   padding: 10px;
 }
 
+.sectionlaranja{
+  background-color: #F98F54;
+}
+
+.sectionlaranja > h1{
+  color: white;
+}
+
+.sectionbege{
+  background-color:#FDEDCF;
+}
+
+.sectionbege > p{
+  color: #F96131;
+}
+
 /*----------Commons----------*/
+
 .titulosubtitulo > h1{
   font-family: 'Vintages';
 }
