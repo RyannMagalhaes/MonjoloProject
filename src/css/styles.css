@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header,
+main,
+footer {
+  border: 1px solid black;
+}
+
+section{
+  border: 1px solid red;
+}
+
+section h1,p{
+  text-align: center;
+  padding: 10px;
+}
+
+/*----------Commons----------*/
+.titulosubtitulo > h1{
+  font-family: 'Vintages';
+}
+
+.titulosubtitulo > p{
+  font-family: 'Quicksand';
+}
+
+/*----------CSS Mapa:----------*/
+
+path{
+  fill:#f98f54;
+  stroke: white;
+}
+
+path:hover{
+  fill: #cc4e0b;
+  transition-duration: 600ms;
+  transition-property: fill;
+}
+
+/*--------------------*/
+
+/*----------Fontes----------*/
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vintages';
+  src: url('../fonts/Vintages.ttf') format('truetype');
+  font-style: normal;
+}
