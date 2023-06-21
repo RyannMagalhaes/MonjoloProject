@@ -1,0 +1,36 @@
+{
+    "exibir": 5,
+
+    "opnioes":[
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        },
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        },
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        },
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        },
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        }
+    ]
+}
