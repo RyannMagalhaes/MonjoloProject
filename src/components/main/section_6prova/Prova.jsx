@@ -5,7 +5,7 @@ import "../../../JSON/opnioes.json"
 
 export default function Prova(){
     return(
-        <section class="sectionlaranja">
+        <section class="sectionlaranja" id="depoimentos">
             <TituloSubtitulo tit={titulosDescricoes["prova"].titulo} desc={titulosDescricoes["prova"].descricao}/>
         </section>
     )

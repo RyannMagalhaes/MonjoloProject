@@ -1,0 +1,35 @@
+.header1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header1 ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: bold;
+    list-style: none;
+    text-shadow: 2px 2px 4px black;
+    height: 70px;
+}
+
+.header1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.header1 li{
+    padding: 8px 35px;
+    margin: auto;
+}
+
+.header1 img{
+    border-radius: 50%; 
+    width: 140px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
