@@ -13,7 +13,7 @@ export default function QuemSomos() {
                         <hr />
 
                     </div>
-                    <TituloSubtitulo  desc={titulosDescricoes["quemSomos"].descricao} />
+                    <TituloSubtitulo desc={titulosDescricoes["quemSomos"].descricao} />
 
                 </div>
                 <div className="container4_2">
