@@ -1,0 +1,85 @@
+.divMaior7{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    align-items: end;
+}
+.tituloSub{
+    margin-right: 120px;
+    margin-bottom: -20px;
+}
+.container7_1{
+    color: #F96131;
+    text-shadow: 3px 3px 4px black;
+    font-weight: lighter;
+    
+}
+
+.container7_1 h1{
+    font-size: 60px;
+    display: flex;
+    justify-content: right;
+
+}
+.container7_1 hr{
+    width: 560px;
+    background-color: #F96131;
+    height: 3px;
+    box-shadow: 2px 2px 3px black;
+    border: 0px;
+}
+.container7_2{
+    display: flex;
+    flex-direction: row;
+}
+.container7_2 .txt7{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.container7_2 .txt7 p{
+    text-align: justify;
+    font-family: "Quicksand";
+    font-weight: bolder;
+    color: #F96131;
+}
+.container7_2 .imagem7{
+    padding: 30px;
+    
+}
+.imagem7 img{
+    width: 350px;
+    border: 2px solid #F96131;
+    border-radius: 5px;
+}
+.container7_3{
+    display: flex;
+    
+}
+.container7_3 .vazia{
+    width: 500px;
+}
+.divBotao{
+    width: 500px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.botaoComprar{
+    background-color: #F96131;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Quicksand';
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+    text-shadow: 2px 2px 2px #432101;
+    border: 0px;
+    margin: auto;
+}
+
+
+

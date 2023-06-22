@@ -1,0 +1,16 @@
+
+.container3{
+    color: #F96131;
+    text-shadow: 3px 3px 4px black;
+    font-weight: lighter;
+}
+
+.container3 h1{
+    font-size: 60px;
+}
+.container3 p{
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px black;
+    
+}
