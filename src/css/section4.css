@@ -1,6 +1,7 @@
 .section4 {
     display: flex;
     justify-content: center;
+    height: 600px;
 }
 
 .divMaior4 {
@@ -15,7 +16,6 @@
 .container4 {
     color: white;
     text-shadow: 3px 3px 4px black;
-    font-weight: lighter;
 }
 
 .container4 h1 {
@@ -41,29 +41,24 @@
 .container4_2 {
     display: flex;
     flex-direction: row;
-
+    font-size: 16px;
 }
 
 .container4_2 .video {
     padding: 10px;
 }
-
-.container4_2 img {
-    width: 350px;
-    height: 280px;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
+.video iframe{
+    border: 3px solid black;
 }
 
 .container4_2 .text4 {
-    padding: 20px;
-    width: 480px;
+    padding: 14px;
+    width: 500px;
 }
 
 .container4_2 .text4 p {
     color: white;
     font-family: "Quicksand";
     text-align: justify;
-
+    font-weight: 500;
 }

@@ -18,7 +18,16 @@ export default function QuemSomos() {
                 </div>
                 <div className="container4_2">
                     <div className="video">
-                        <img src={imagem2} alt="" />
+
+                        <iframe
+                            width="560"
+                            height="315"
+        
+                            src={`https://www.youtube.com/embed/OvDOjat8afY`}
+                            title="Embedded YouTube Video"
+                            allowFullScreen
+                        ></iframe>
+
                     </div>
                     <div className="text4">
                         <p>

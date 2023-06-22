@@ -5,6 +5,8 @@
     margin: auto;
     padding: 10px;
     align-items: end;
+    height: 600px;
+    justify-content: center;
 }
 .tituloSub{
     margin-right: 120px;
@@ -27,7 +29,7 @@
     width: 560px;
     background-color: #F96131;
     height: 3px;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 4px black;
     border: 0px;
 }
 .container7_2{
@@ -75,10 +77,11 @@
     font-family: 'Quicksand';
     font-size: 15px;
     width: 150px;
+    padding: 5px;
     height: 45px;
     text-shadow: 2px 2px 2px #432101;
     border: 0px;
-    margin: auto;
+    font-weight: bolder;
 }
 
 

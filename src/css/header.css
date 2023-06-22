@@ -18,6 +18,10 @@
     text-decoration: none;
     color: white;
 }
+.header1 a:hover{
+    transition: transform 0.6s ease-in-out;
+    color: rgb(216, 213, 213);
+}
 
 .header1 li{
     padding: 8px 35px;
@@ -27,6 +31,7 @@
 .header1 img{
     border-radius: 50%; 
     width: 140px;
+    height: 140px;
 }
 
 
