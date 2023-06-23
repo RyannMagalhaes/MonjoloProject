@@ -37,7 +37,9 @@ export default function Comprar() {
 
                     </div>
                     <div className="divBotao">
+                        <a href="https://www.monjoloalimentos.com.br/nossa-loja" target="_blank">
                         <input type="button" className="botaoComprar" value="Nossa Loja!" />
+                        </a>
 
                     </div>
                 </div>

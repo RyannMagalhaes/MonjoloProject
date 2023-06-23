@@ -66,3 +66,15 @@
     padding: 30px;
     
 }
+
+.swiper-button-next::after,.swiper-button-prev::after {
+    content: "";
+}
+
+.swiper-button-next{ 
+    color: red;
+}
+
+.swiper-button-prev{
+    color: red;
+}

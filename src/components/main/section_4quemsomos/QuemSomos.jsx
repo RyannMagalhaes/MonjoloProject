@@ -8,13 +8,7 @@ export default function QuemSomos() {
         <section class="sectionlaranja section4" id="quemsomos">
             <div className="divMaior4">
                 <div className="container4">
-                    <TituloSubtitulo tit={titulosDescricoes["quemSomos"].titulo} />
-                    <div className="hr4">
-                        <hr />
-
-                    </div>
-                    <TituloSubtitulo desc={titulosDescricoes["quemSomos"].descricao} />
-
+                    <TituloSubtitulo tit={titulosDescricoes["quemSomos"].titulo } desc={titulosDescricoes["quemSomos"].descricao} />
                 </div>
                 <div className="container4_2">
                     <div className="video">

@@ -3,6 +3,7 @@ import titulosDescricoes from "../../../js/titulosDescricoesSecoes.js"
 import CardOpniao from "../commom/CardOpniao";
 import "../../../css/section6.css"
 import "../../../JSON/opnioes.json"
+import Carrossel from "../commom/Carrossel";
 
 export default function Prova(){
     return(

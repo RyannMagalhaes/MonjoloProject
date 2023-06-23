@@ -28,10 +28,8 @@
     text-shadow: 6px 6px 6px black;
 }
 
-.container4 .hr4 hr {
+.container4 hr {
     width: 700px;
-    margin-top: -20px;
-    margin-bottom: -20px;
     background-color: white;
     height: 3px;
     box-shadow: 2px 2px 3px black;

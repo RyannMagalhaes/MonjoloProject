@@ -12,6 +12,11 @@
     margin-top: 48px;
 }
 
+.botaocall:hover{
+    color: gray;
+    transition-duration: 200ms;
+}
+
 .section1{
     background-image: url("../images/background1.png");
     width:100%;
@@ -35,5 +40,9 @@
     font-size: 22px;
     font-weight: 600;
     text-shadow: 6px 6px 6px black;
+}
+
+.section1 hr{
+    color: #ffffff00;
 }
 

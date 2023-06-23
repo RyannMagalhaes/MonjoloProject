@@ -1,8 +1,7 @@
-export default function TituloSubtitulo({tit, desc}){
+export default function Call({tit, desc}){
     return(
         <section class="titulosubtitulo">
             <h1>{tit}</h1>
-            <hr />
             <p>{desc}</p>
         </section>
     )
