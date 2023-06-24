@@ -1,7 +1,12 @@
 .section6 {
-    height: 700px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.divMaior6{
+    width: 1000px;
+}
 .tituloSub6 {
     color: white;
     text-shadow: 3px 3px 4px black;

@@ -1,0 +1,40 @@
+.section5 {
+    height: 800px;
+    
+}
+.section5 img{
+    border: 1px solid;
+}
+.tituloSub5{
+    color: #F96131;
+    text-shadow: 3px 3px 4px black;
+    font-weight: lighter;
+}
+
+.tituloSub5 h1{
+    font-size: 60px;
+}
+.tituloSub5 p{
+    font-size: 22px;
+    font-weight: 600;
+    text-shadow: 2px 2px 3px black;
+}
+.divMaior5{
+    margin: auto;
+    width: 1000px;
+}
+.div5{
+    display: flex;
+    width: 1000px;
+
+}
+.txt5{
+    width: 350px;
+    margin: auto;   
+}
+.txt5 p{
+    font-size: 30px;
+    font-family: "QUicksand";
+    font-weight: 600;
+    text-shadow: 1px 1px  black;
+}

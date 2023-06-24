@@ -16,6 +16,7 @@
 .container4 {
     color: white;
     text-shadow: 3px 3px 4px black;
+    margin-bottom: 30px;
 }
 
 .container4 h1 {
@@ -35,15 +36,33 @@
 }
 
 .container4_2 .video {
+    position: relative;
     padding: 10px;
+    margin-top: 30px;
 }
-.video iframe{
+
+.container4_2 .video::before {
+    content: "";
+    position: absolute;
+    top: -42px;
+    left: -42px;
+    width: 80px;
+    height: 80px;
+    background-image: url('../images/chapeu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg); 
+  }
+
+.video iframe {
     border: 3px solid black;
 }
 
 .container4_2 .text4 {
     padding: 14px;
-    width: 500px;
+    width: 470px;
+    margin-top: 10px;
+    
 }
 
 .container4_2 .text4 p {
