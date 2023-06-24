@@ -5,17 +5,23 @@ import "../../../css/section6.css"
 import "../../../JSON/opnioes.json"
 import Carrossel from "../commom/Carrossel";
 
-export default function Prova(){
-    return(
+export default function Prova() {
+    return (
         <section class="sectionlaranja section6" id="depoimentos">
-            <TituloSubtitulo tit={titulosDescricoes["prova"].titulo} desc={titulosDescricoes["prova"].descricao}/>
+            <div className="divMaior6">
+                <div className="tituloSub6">
+                    <TituloSubtitulo tit={titulosDescricoes["prova"].titulo} desc={titulosDescricoes["prova"].descricao} />
+
+                </div>
+
+            </div>
         </section>
     )
 
 
-    function gerarCard(){
+    function gerarCard() {
         fetch("../../../JSON/opnioes.json")
-        .then(op => opnioes)
-        .then()
+            .then(op => opnioes)
+            .then()
     }
 }

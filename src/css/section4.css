@@ -1,7 +1,7 @@
 .section4 {
     display: flex;
     justify-content: center;
-    height: 600px;
+    height: 700px;
 }
 
 .divMaior4 {
@@ -26,14 +26,6 @@
     font-size: 18px;
     font-weight: 600;
     text-shadow: 6px 6px 6px black;
-}
-
-.container4 hr {
-    width: 700px;
-    background-color: white;
-    height: 3px;
-    box-shadow: 2px 2px 3px black;
-    border: 0px;
 }
 
 .container4_2 {

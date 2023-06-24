@@ -8,16 +8,12 @@ export default function Comprar() {
     return (
         <section class="sectionbege section7" id="compre">
             <div className="divMaior7">
-                <div className="container7_1">
-                    <div className="tituloSub">
-                        <TituloSubtitulo tit={titulosDescricoes["comprar"].titulo} />
 
-                    </div>
-                    <div className="linha">
-                        <hr />
-                    </div>
+                <div className="tituloSub">
+                    <TituloSubtitulo tit={titulosDescricoes["comprar"].titulo} />
 
                 </div>
+
                 <div className="container7_2">
                     <div className="imagem7">
                         <img src={imagem} alt="" />
@@ -38,7 +34,7 @@ export default function Comprar() {
                     </div>
                     <div className="divBotao">
                         <a href="https://www.monjoloalimentos.com.br/nossa-loja" target="_blank">
-                        <input type="button" className="botaoComprar" value="Nossa Loja!" />
+                            <input type="button" className="botaoComprar" value="Nossa Loja!" />
                         </a>
 
                     </div>

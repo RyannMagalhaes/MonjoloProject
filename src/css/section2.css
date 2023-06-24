@@ -1,17 +1,23 @@
-.section6 {
+.section2 {
+    display: flex;
+    justify-content: center;
     height: 700px;
 }
+.divMaior2{
+    width: 1000px;
 
-.tituloSub6 {
+}
+
+.tituloSub2 {
     color: white;
     text-shadow: 3px 3px 4px black;
 }
 
-.tituloSub6 h1 {
+.tituloSub2 h1 {
     font-size: 60px;
 }
 
-.tituloSub6 p {
+.tituloSub2 p {
     font-size: 18px;
     font-weight: 600;
     text-shadow: 6px 6px 6px black;

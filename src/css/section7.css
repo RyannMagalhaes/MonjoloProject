@@ -1,75 +1,79 @@
-.divMaior7{
+.section7 {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divMaior7 {
     width: 1000px;
     display: flex;
     flex-direction: column;
     margin: auto;
     padding: 10px;
     align-items: end;
-    height: 600px;
     justify-content: center;
 }
-.tituloSub{
-    margin-right: 120px;
-    margin-bottom: -20px;
-}
-.container7_1{
+
+.tituloSub {
     color: #F96131;
     text-shadow: 3px 3px 4px black;
     font-weight: lighter;
-    
+    margin-right: 120px;
+    margin-bottom: -20px;
 }
 
-.container7_1 h1{
+.tituloSub h1 {
     font-size: 60px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 
 }
-.container7_1 hr{
-    width: 560px;
-    background-color: #F96131;
-    height: 3px;
-    box-shadow: 2px 2px 4px black;
-    border: 0px;
-}
-.container7_2{
+
+.container7_2 {
     display: flex;
     flex-direction: row;
 }
-.container7_2 .txt7{
+
+.container7_2 .txt7 {
     padding: 30px;
     font-size: 20px;
 }
 
-.container7_2 .txt7 p{
+.container7_2 .txt7 p {
     text-align: justify;
     font-family: "Quicksand";
     font-weight: bolder;
     color: #F96131;
 }
-.container7_2 .imagem7{
+
+.container7_2 .imagem7 {
     padding: 30px;
-    
+
 }
-.imagem7 img{
+
+.imagem7 img {
     width: 350px;
     border: 2px solid #F96131;
     border-radius: 5px;
 }
-.container7_3{
+
+.container7_3 {
     display: flex;
-    
+
 }
-.container7_3 .vazia{
+
+.container7_3 .vazia {
     width: 500px;
 }
-.divBotao{
+
+.divBotao {
     width: 500px;
     text-align: center;
     margin-top: -20px;
     margin-bottom: 30px;
 }
-.botaoComprar{
+
+.botaoComprar {
     background-color: #F96131;
     color: white;
     padding: 15px;
@@ -82,12 +86,12 @@
     text-shadow: 2px 2px 2px #432101;
     border: 0px;
     font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
 }
 
-.botaoComprar:hover{
+.botaoComprar:hover {
     color: gray;
-    transition-duration: 100ms;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
-
-
-

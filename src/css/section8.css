@@ -1,0 +1,122 @@
+.section8 {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divMaior8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand";
+
+}
+
+.tituloSub8 {
+    display: flex;
+    align-items: center;    
+    
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+}
+.tituloSub8 img{
+    margin-left: 15px;
+    width: 120px;
+}
+
+.tituloSub8 h1 {
+    font-size: 60px;
+}
+
+.tituloSub8 p {
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 6px 6px 6px black;
+}
+
+.txt8 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+}
+
+.txt8 p {
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: white;
+    text-align: justify;
+}
+
+.formulario {
+    background-color: #FDEDCF;
+    border-radius: 0px 30px 0px 0px;
+    padding: 20px;
+
+}
+
+.formulario p {
+    color: #F96131;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+}
+
+.formulario form label {
+    margin-top: 15px;
+}
+
+.formulario form input:not([type="button"]) {
+    background-color: #FEFAF1;
+    border: 0px;
+    padding: 15px;
+    height: 25px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+}
+
+.formulario form input[type="text"]:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formulario a {
+    text-decoration: none;
+
+}
+
+.formulario a .botaoEnviar8 {
+    transition: box-shadow 0.3s ease;
+    background-image: linear-gradient(to right, #CC2500, #f85421);
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    align-self: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.formulario a .botaoEnviar8:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.formulario form div {
+
+    display: flex;
+    justify-content: center;
+}
