@@ -1,6 +1,7 @@
 .divMaiorFooter {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: auto;
     width: 1000px;
     color: white;
@@ -9,14 +10,13 @@
     font-size: 16px;
     padding: 10px;
 }
-
-.redesSociais {
-    width: 450px;
-    margin-right: 30px;
+.redesSociais{
+    width: 400px;
+    margin-right: 20px;
 }
-
 .redesSociais p {
     text-align: justify;
+    padding: 10px;
 }
 
 .txtRedes {
@@ -58,12 +58,19 @@
     height: 120px;
     border-radius: 50%;
 }
-
-.endereco {
-    width: 300px;
-    margin-left: 30px;
+.endereco{
+    width: 400px;
+    margin-left: 20px;
 }
+
 .endereco p{
+    text-align: justify;
+}
+.endereco ul{
+    list-style: none;
+
+}
+.endereco ul li{
     text-align: justify;
 }
 

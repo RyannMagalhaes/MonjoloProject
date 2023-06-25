@@ -1,5 +1,5 @@
 import Chamada from "./section_1chamada/Chamada";
-import Ingredientes from "./section_2ingredientes/Ingredientes";
+import IngredientesSection from "./section_2ingredientes/IngredientesSection";
 import Catalogo from "./section_3catalogo/Catalogo";
 import QuemSomos from "./section_4quemsomos/QuemSomos";
 import Mapa from "./section_5mapa/Mapa";
@@ -12,7 +12,7 @@ export default function Main() {
     return (
         <main>
             <Chamada/>
-            <Ingredientes/>
+            <IngredientesSection/>
             <Catalogo/>
             <QuemSomos/>
             <Mapa/>

@@ -53,11 +53,24 @@ export default function Footer() {
                 </div>
                 <div className="endereco">
                     <p>
-                        Endereço
-                        Rua Santa Rosa, 140 - A
-                        Jardim AméricaItumbiara - GO, 75523290, BR
-                        (64) 3431.4955
-                        comercial@monjoloalimentos.com.br
+                        <ul>
+                            <li>
+                                Endereço:
+                                Rua Santa Rosa, 140 - A
+
+                            </li>
+                            <li>
+                                Jardim AméricaItumbiara - GO, 75523290, BR
+
+                            </li>
+                            <li>
+                                (64) 3431 - 4955
+                            </li>
+                            <li>
+
+                                comercial@monjoloalimentos.com.br
+                            </li>
+                        </ul>
                     </p>
                 </div>
             </div>
