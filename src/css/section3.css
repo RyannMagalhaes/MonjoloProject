@@ -4,47 +4,51 @@
     align-items: center;
     height: 700px;
 }
-.divMaior3{
+
+.divMaior3 {
     width: 1000px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
-.container3{
+
+.container3 {
     color: #F96131;
     text-shadow: 3px 3px 4px black;
     font-weight: lighter;
 }
 
-.container3 h1{
+.container3 h1 {
     font-size: 60px;
 }
-.container3 p{
+
+.container3 p {
     font-size: 22px;
     font-weight: 600;
     text-shadow: 2px 2px 3px black;
 }
 
-.container3_2 .txt3 p{
+.container3_2 .txt3 p {
     text-align: justify;
     font-family: "Quicksand";
     font-weight: 600;
     color: #F96131;
 }
 
-.imagem3 img{
+.imagem3 img {
     width: 350px;
-    border: 2px solid #F96131;
     border-radius: 5px;
+    border: 3px solid #F96131;
 }
 
-.container3_2{
+.container3_2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
-.container3_2 .txt3{
+
+.container3_2 .txt3 {
     width: 500px;
     padding: 30px;
     font-size: 16px;
@@ -53,28 +57,47 @@
 
 .container3_2 .txt3 p:nth-child(1),
 .container3_2 .txt3 p:nth-child(3),
-.container3_2 .txt3 p:nth-child(4){
+.container3_2 .txt3 p:nth-child(4) {
     text-align: center;
     font-family: "Quicksand";
     color: #F96131;
 }
-.container3_2 .txt3 p:nth-child(1){
+
+.container3_2 .txt3 p:nth-child(1) {
     font-weight: bolder;
     font-size: 18px;
-}
-.container3_2 .imagem3{
-    padding: 30px;
-    
+    color: #F96131;
+    text-align: center;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family: Quicksand;
+    font-weight: 700;
 }
 
-.swiper-button-next::after,.swiper-button-prev::after {
+.container3_2 .txt3 p:nth-child(2),
+.container3_2 .txt3 p:nth-child(3),
+.container3_2 .txt3 p:nth-child(4) {
+    color: #F96131;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+.container3_2 .imagem3 {
+    padding: 30px;
+
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
     content: "";
 }
 
-.swiper-button-next{ 
+.swiper-button-next {
     color: red;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
     color: red;
 }

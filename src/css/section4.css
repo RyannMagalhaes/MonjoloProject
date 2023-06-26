@@ -51,18 +51,19 @@
     background-image: url('../images/chapeu.png');
     background-size: cover;
     background-repeat: no-repeat;
-    transform: rotate(-45deg); 
-  }
+    transform: rotate(-45deg);
+}
 
 .video iframe {
-    border: 3px solid black;
+    border-radius: 8px;
+    border: 5px solid #000;
 }
 
 .container4_2 .text4 {
     padding: 14px;
     width: 470px;
     margin-top: 10px;
-    
+
 }
 
 .container4_2 .text4 p {

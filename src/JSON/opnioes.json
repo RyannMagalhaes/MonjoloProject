@@ -1,10 +1,10 @@
 {
-    "exibir": 5,
+    "exibir": 2,
 
     "opnioes":[
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"../../../images/testeRelatoFotos/testeRelato.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
@@ -30,6 +30,12 @@
             "relato":"Muito bom!!",
             "foto":"url foto",
             "nome":"Ryann",
+            "cidade":"Uberlândia - MG"
+        },
+        {
+            "relato":"Muito bom!!",
+            "foto":"url foto",
+            "nome":"Cayke",
             "cidade":"Uberlândia - MG"
         }
     ]

@@ -4,10 +4,10 @@ export default function Whatsapp() {
     return (
         <FloatingWhatsApp
             phoneNumber='190'
-            accountName='Roberto Campos Neto'
-            statusMessage=''
+            accountName='Monjolo Alimentos'
             chatMessage='Olá, em que podemos ajudar?'
             placeholder='Olá! meu nome é...'
+            autoOpen={true}
             allowEsc={true}
             allowClickAway={true} />
     )

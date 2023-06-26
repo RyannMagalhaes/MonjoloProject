@@ -10,7 +10,7 @@
     z-index: -1;
 }
 
-.panelaDecoracao {
+.panelaDecoracao .panela {
     position: absolute;
     bottom: -30px;
     left: 0;
@@ -19,9 +19,32 @@
     height: auto;
 }
 
-.panelaDecoracao img {
+.panelaDecoracao .panela {
     width: 150px;
     height: auto;
+}
+
+.panelaDecoracao .mandioca,
+.mandioca2 {
+    width: 120px;
+    margin-top: -20px;
+    height: auto;
+}
+
+.panelaDecoracao .mandioca {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.panelaDecoracao .mandioca2 {
+    position: absolute;
+    top: 20%;
+    right: 20px;
+    margin-right: -40px;
+    z-index: 1;
+    transform: rotate(50deg);
 }
 
 .divMaior2 {
@@ -69,6 +92,10 @@
     padding: 0;
 }
 
+.lista2 {
+    margin-left: 50px;
+}
+
 .ingredientes {
     display: flex;
     align-items: center;
@@ -93,5 +120,7 @@
 }
 
 .video2 iframe {
-    border: 3px solid black;
+    border-radius: 10px;
+    border: 5px solid #000;
+    box-shadow: 4px 4px 1px 0px #992A12 inset;
 }

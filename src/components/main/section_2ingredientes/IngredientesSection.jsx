@@ -5,6 +5,7 @@ import IngredientesComponent from "../commom/IngredientesComponent";
 import "../../../css/section2.css";
 import ingredientesJson from '../../../JSON/ingredientes.json';
 import panela from "../../../images/panela.png"
+import mandioca from "../../../images/iconMandioca.png"
 
 
 export default function IngredientesSection() {
@@ -40,7 +41,9 @@ export default function IngredientesSection() {
         </div>
       </div>
       <div className="panelaDecoracao">
-        <img src={panela} alt="Panela de Decoração" />
+        <img src={mandioca} alt="Madioca de Decoração" className='mandioca'/>
+        <img src={mandioca} alt="Madioca de Decoração" className='mandioca2'/>
+        <img src={panela} alt="Panela de Decoração"  className='panela'/>
       </div>
     </section>
   );

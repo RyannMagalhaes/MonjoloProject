@@ -17,7 +17,7 @@
 }
 
 .botaocall:hover {
-    color: gray;
+    color: rgb(235, 235, 235);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
