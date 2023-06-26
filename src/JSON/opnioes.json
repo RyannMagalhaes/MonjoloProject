@@ -4,39 +4,40 @@
     "opnioes":[
         {
             "relato":"Muito bom!!",
-            "foto":"../../../images/testeRelatoFotos/testeRelato.png",
+            "foto":"/src/images/fotosRelato/relato1.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"/src/images/fotosRelato/relato2.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"/../../../images/fotosRelato/relato1.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"../../../images/fotosRelato/relato1.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"../../../images/fotosRelato/relato1.png",
             "nome":"Ryann",
             "cidade":"Uberlândia - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"url foto",
+            "foto":"../../../images/fotosRelato/relato1.png",
             "nome":"Cayke",
             "cidade":"Uberlândia - MG"
         }
     ]
 }
+
