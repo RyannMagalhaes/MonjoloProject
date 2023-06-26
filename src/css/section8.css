@@ -94,7 +94,7 @@
 
 .formulario form input[type="text"]:hover {
     box-shadow: 4px 4px 3px rgba(63, 63, 63, 0.3);
-    cursor: pointer;
+    cursor: text;
 }
 
 .formulario a {
