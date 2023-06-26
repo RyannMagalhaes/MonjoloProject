@@ -14,7 +14,9 @@ export default function Prova() {
 
   function gerarCard(opiniao) {
     return (
+
       <CardOpniao
+      div
         relato={opiniao.relato}
         foto={opiniao.foto}
         nome={opiniao.nome}

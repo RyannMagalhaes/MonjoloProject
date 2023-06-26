@@ -73,7 +73,7 @@
 }
 
 .foto img {
-
+    border: 4px solid black;
     width: 100px;
     height: 100px;
     background-color: #ccc;
@@ -95,7 +95,8 @@
 
 .card-opniao .nome {
     font-weight: bold;
-    margin-bottom: 5px;
 }
 
-.card-opniao .cidade {}
+.card-opniao .cidade {
+    margin-top: -10px;
+}
