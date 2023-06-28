@@ -90,4 +90,21 @@ svg{
   font-style: normal;
 }
 
+/*-----Swipper-----*/
 
+.swiper-button-prev{
+  color: #F96131;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.swiper-button-next{
+  color: #F96131;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet{
+  color: #F96131;
+  background-color: #F96131;
+}
