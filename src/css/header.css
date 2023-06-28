@@ -39,7 +39,7 @@
     margin: 0;
   }
   .header-hidden {
-    transform: translateY(-100%);
+    transform: translateY(-250%);
   }
   
   /* Adicione a classe .header-placeholder */

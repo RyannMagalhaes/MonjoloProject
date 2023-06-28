@@ -12,11 +12,22 @@ export default function Prova() {
     setOpinioes(opinioesData.opnioes.slice(0, opinioesData.exibir));
   }, []);
 
-  function gerarCard(opiniao) {
+  function gerarCard(opiniao,index) {
+
+    const isImpar = index%2;
+    var cardClasses = 0;
+
+    if(isImpar==0){
+      cardClasses='card-opiniao';
+    }else{
+      cardClasses='card-opiniao-impar'
+    }
+
     return (
 
       <CardOpniao
       div
+        className={cardClasses}
         relato={opiniao.relato}
         foto={opiniao.foto}
         nome={opiniao.nome}
@@ -37,7 +48,7 @@ export default function Prova() {
         <div className="opnioes-container">
           {opinioes.map((opiniao, index) => (
             <React.Fragment key={index}>
-              {gerarCard(opiniao)}
+              {gerarCard(opiniao,index)}
             </React.Fragment>
           ))}
         </div>

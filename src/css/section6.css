@@ -100,3 +100,11 @@
 .card-opniao .cidade {
     margin-top: -10px;
 }
+
+/* .opnioes-container:nth-child(even){
+    margin-top:300px;
+  } */
+
+  .card-opiniao-impar{
+    margin-top: 200px;
+  }
