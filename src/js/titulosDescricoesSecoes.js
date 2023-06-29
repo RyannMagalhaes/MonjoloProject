@@ -20,7 +20,7 @@ const titulosDescricoes = {
         descricao: "Construimos relações de respeito e prosperidade com os parceiros Monjolo "
     },
     prova: {
-        titulo: "O que os nossos clientes estão dizendo?",
+        titulo: "O que os nossos clientes estao dizendo?",
         descricao: "Despertamos o melhor em quem experimenta nossa farofa"
     },
     comprar: {

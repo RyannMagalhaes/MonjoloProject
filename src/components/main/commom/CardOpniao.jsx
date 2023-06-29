@@ -2,7 +2,7 @@
 export default function CardOpniao(props) {
   
     return (
-      <div className={`card-opniao ${props.className}`}>
+      <div className={`${props.className}`}>
         <p className="relato">{props.relato}</p>
         <div className="foto">
           <img src={props.foto} alt="" />

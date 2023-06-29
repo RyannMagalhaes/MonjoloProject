@@ -14,7 +14,6 @@ export default function Prova() {
   }, []);
 
   function gerarCard(opiniao, index) {
-    console.log(index)
 
     return (
 
