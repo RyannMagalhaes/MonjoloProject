@@ -4,6 +4,7 @@ import CardOpniao from '../commom/CardOpniao';
 import '../../../css/section6.css';
 import opinioesData from '../../../JSON/opnioes.json';
 import titulosDescricoes from '../../../js/titulosDescricoesSecoes.js';
+import Animacao from '../commom/Animacao';
 
 export default function Prova() {
   const [opinioes, setOpinioes] = useState([]);
@@ -12,22 +13,14 @@ export default function Prova() {
     setOpinioes(opinioesData.opnioes.slice(0, opinioesData.exibir));
   }, []);
 
-  function gerarCard(opiniao,index) {
-
-    const isImpar = index%2;
-    var cardClasses = 0;
-
-    if(isImpar==0){
-      cardClasses='card-opiniao';
-    }else{
-      cardClasses='card-opiniao-impar'
-    }
+  function gerarCard(opiniao, index) {
+    console.log(index)
 
     return (
 
       <CardOpniao
-      div
-        className={cardClasses}
+        div
+        className={`${index % 2 == 0 ? 'card-opiniao' : 'card-opiniao-impar'}`}
         relato={opiniao.relato}
         foto={opiniao.foto}
         nome={opiniao.nome}
@@ -45,10 +38,11 @@ export default function Prova() {
             desc={titulosDescricoes['prova'].descricao}
           />
         </div>
+       
         <div className="opnioes-container">
           {opinioes.map((opiniao, index) => (
             <React.Fragment key={index}>
-              {gerarCard(opiniao,index)}
+              {gerarCard(opiniao, index)}
             </React.Fragment>
           ))}
         </div>
