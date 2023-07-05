@@ -56,7 +56,23 @@ section h1,p{
 .titulosubtitulo p{
   font-family: 'Quicksand';
 }
-
+@media (max-width: 768px) {
+  .sectionbege, .sectionlaranja{
+    width: 100%;
+  }
+  .titulosubtitulo h1{
+    font-size: 30px;
+  }
+  .titulosubtitulo p{
+    font-size: 16px;
+  }
+  .sectionlaranja hr {
+    width: 340px;
+  }
+  .sectionbege hr{
+    width: 340px;
+  }
+  }
 /*----------CSS Mapa:----------*/
 
 path{
@@ -108,3 +124,4 @@ svg{
   color: #F96131;
   background-color: #F96131;
 }
+

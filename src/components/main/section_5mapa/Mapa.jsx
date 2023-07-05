@@ -14,9 +14,8 @@ export default function Mapa() {
                     <div className="txt5">
                         <p>Nos encontre próximo de você.</p>
                     </div>
-                    <div className="Brasil">
+                    <div className="brasil">
                         <Brasil />
-
                     </div>
 
                 </div>

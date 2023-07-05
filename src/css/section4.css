@@ -72,3 +72,35 @@
     text-align: justify;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .section4 {
+        height: 100%;
+    }
+
+    .container4_2 {
+        flex-direction: column;
+    }
+
+    .container4_2 .video {
+        margin-top: 0px;
+    }
+
+    iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    .container4_2 .text4 {
+        padding: 16px;
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .container4_2 .video::before {
+        top: -22px;
+        left: -22px;
+        width: 50px;
+        height: 50px;
+    }
+}

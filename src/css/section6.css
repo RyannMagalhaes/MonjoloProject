@@ -105,3 +105,13 @@
    position: relative;
    top: 70px;
   }
+  @media (max-width: 768px) {
+    .divMaior6{
+        width: 100%;
+        
+    }
+
+    .opnioes-container{
+        width: 100%;
+    }
+  }

@@ -5,12 +5,7 @@
     align-items: center;
     
 }
-.divMaior5{
-    
-}
-.section5 img{
-    border: 1px solid;
-}
+
 .tituloSub5{
     color: #F96131;
     text-shadow: 3px 3px 4px black;
@@ -33,7 +28,6 @@
     display: flex;
     width: 1000px;
     flex-direction: row-reverse;
-
 }
 .txt5{
     width: 350px;
@@ -44,4 +38,21 @@
     font-family: "QUicksand";
     font-weight: 600;
     text-shadow: 1px 1px  black;
+}
+@media (max-width: 768px) {
+    .divMaior5{
+        margin: auto;
+        width: 100%;
+    }
+    .div5{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    
+    }
+    .txt5 p{
+        font-size: 16px;
+    }
+    
+
 }

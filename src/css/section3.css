@@ -101,3 +101,34 @@
 .swiper-button-prev {
     color: red;
 }
+
+@media (max-width: 768px) {
+    .section3 {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .divMaior3 {
+        width: 100%;
+    }
+
+    .divMaior3 img {
+        width: 250px;
+    }
+
+    .container3_2 {
+        flex-direction: column;
+    }
+    .txt3{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .container3_2 .txt3 p:nth-child(1) {
+        font-size: 25px;
+    }
+    .container3_2 .txt3 p:nth-child(2){
+        font-size: 20px;
+        letter-spacing: px;
+    }
+}

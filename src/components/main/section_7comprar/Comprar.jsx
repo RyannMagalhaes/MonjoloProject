@@ -11,7 +11,6 @@ export default function Comprar() {
 
                 <div className="tituloSub">
                     <TituloSubtitulo tit={titulosDescricoes["comprar"].titulo} />
-
                 </div>
 
                 <div className="container7_2">

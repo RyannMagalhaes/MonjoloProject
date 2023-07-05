@@ -95,3 +95,48 @@
     color: rgb(235, 235, 235);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+@media (max-width: 768px) {
+    .section7 {
+        height: 100%;
+    }
+
+    .divMaior7 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .divMaior7 .tituloSub {
+        margin: auto;
+        margin-bottom: -20px;
+    }
+
+    .container7_2 {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container7_2 p {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .container7_2 .imagem7 {
+        margin-bottom: -30px;
+    }
+
+    .imagem7 img {
+        width: 250px;
+        border: 2px solid #F96131;
+        border-radius: 5px;
+    }
+
+    .container7_3 .botaoComprar {
+        margin-left: 25%;
+    }
+    .divMaior7 .divBotao{
+        margin-bottom: -30px;
+    }
+}
