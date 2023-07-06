@@ -1,142 +1,143 @@
 .section7 {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
 .divMaior7 {
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 10px;
-    align-items: end;
-    justify-content: center;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  align-items: end;
+  justify-content: center;
 }
 
 .tituloSub {
-    color: #F96131;
-    text-shadow: 3px 3px 4px black;
-    font-weight: lighter;
-    margin-right: 120px;
-    margin-bottom: -20px;
+  color: #f96131;
+  text-shadow: 3px 3px 4px black;
+  font-weight: lighter;
+  margin-right: 120px;
+  margin-bottom: -20px;
 }
 
 .tituloSub h1 {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .container7_2 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .container7_2 .txt7 {
-    padding: 30px;
-    font-size: 20px;
+  padding: 30px;
+  font-size: 20px;
 }
 
 .container7_2 .txt7 p {
-    text-align: justify;
-    font-family: "Quicksand";
-    font-weight: bolder;
-    color: #F96131;
+  text-align: justify;
+  font-family: "Quicksand";
+  font-weight: bolder;
+  color: #f96131;
 }
 
 .container7_2 .imagem7 {
-    padding: 30px;
-
+  padding: 30px;
 }
 
 .imagem7 img {
-    width: 350px;
-    border: 2px solid #F96131;
-    border-radius: 5px;
+  width: 350px;
+  border: 2px solid #f96131;
+  border-radius: 5px;
 }
 
 .container7_3 {
-    display: flex;
-
+  display: flex;
 }
 
 .container7_3 .vazia {
-    width: 500px;
+  width: 500px;
 }
 
 .divBotao {
-    width: 500px;
-    text-align: center;
-    margin-top: -20px;
-    margin-bottom: 30px;
+  width: 500px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 .botaoComprar {
-    background-color: #F96131;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    font-family: 'Quicksand';
-    font-size: 15px;
-    width: 150px;
-    padding: 5px;
-    height: 45px;
-    text-shadow: 2px 2px 2px #432101;
-    border: 0px;
-    font-weight: bolder;
-    cursor: pointer;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease;
+  background-color: #f96131;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: "Quicksand";
+  font-size: 15px;
+  width: 150px;
+  padding: 5px;
+  height: 45px;
+  text-shadow: 2px 2px 2px #432101;
+  border: 0px;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
 }
 
 .botaoComprar:hover {
-    color: rgb(235, 235, 235);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: rgb(235, 235, 235);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
-    .section7 {
-        height: 100%;
-    }
+  .section7 {
+    height: 100%;
+  }
 
-    .divMaior7 {
-        width: 100%;
-        align-items: center;
-    }
+  .divMaior7 {
+    width: 100%;
+    align-items: center;
+  }
 
-    .divMaior7 .tituloSub {
-        margin: auto;
-        margin-bottom: -20px;
-    }
+  .divMaior7 .tituloSub {
+    margin: auto;
+    margin-bottom: -20px;
+  }
 
-    .container7_2 {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
+  .container7_2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .container7_2 p {
-        padding: 0px;
-        font-size: 16px;
-    }
+  .container7_2 p {
+    padding: 0px;
+    font-size: 16px;
+  }
 
-    .container7_2 .imagem7 {
-        margin-bottom: -30px;
-    }
+  .container7_2 .imagem7 {
+    margin-bottom: -30px;
+  }
 
-    .imagem7 img {
-        width: 250px;
-        border: 2px solid #F96131;
-        border-radius: 5px;
-    }
+  .imagem7 img {
+    width: 250px;
+    border: 2px solid #f96131;
+    border-radius: 5px;
+  }
 
-    .container7_3 .botaoComprar {
-        margin-left: 25%;
-    }
-    .divMaior7 .divBotao{
-        margin-bottom: -30px;
-    }
+  .container7_3 .botaoComprar {
+    /* margin-left: 25%; */
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .divMaior7 .divBotao {
+    margin-bottom: -30px;
+  }
 }
