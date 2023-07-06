@@ -1,117 +1,118 @@
 .section6 {
-    height: 850px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .divMaior6 {
-    width: 1000px;
+  width: 1000px;
 }
 
 .tituloSub6 {
-    color: white;
-    text-shadow: 3px 3px 4px black;
+  color: white;
+  text-shadow: 3px 3px 4px black;
 }
 
 .tituloSub6 h1 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .tituloSub6 p {
-    font-size: 18px;
-    font-weight: 600;
-    text-shadow: 6px 6px 6px black;
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 6px 6px 6px black;
 }
 
 .opnioes-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-.card-opiniao, .card-opiniao-impar{
-    color: #000;
-    text-align: center;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 22px;
-    font-family: Quicksand;
-    font-weight: 600;
-    margin-top: 2px;
-    margin: 35px;
-    width: 224px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    border: 4px solid black;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #FDEDCF;
-    position: relative;
+.card-opiniao,
+.card-opiniao-impar {
+  color: #000;
+  text-align: center;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+  font-family: Quicksand;
+  font-weight: 600;
+  margin-top: 2px;
+  margin: 35px;
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid black;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fdedcf;
+  position: relative;
 }
 
 .card-opiniao .relato {
- 
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.card-opiniao .foto, .card-opiniao-impar .foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    z-index: 1;
+.card-opiniao .foto,
+.card-opiniao-impar .foto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .foto img {
-    border: 4px solid black;
-    width: 100px;
-    height: 100px;
-    background-color: #ccc;
-    border-radius: 50%;
+  border: 4px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
 }
 
-.card-opiniao .linha, .card-opiniao-impar .linha{
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 50%;
-    z-index: 0;
-    margin-bottom: 20px;
-    
-    transform: translateY(50%);
-    height: 3px;
-    background-color: #000000;
+.card-opiniao .linha,
+.card-opiniao-impar .linha {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  z-index: 0;
+  margin-bottom: 20px;
+
+  transform: translateY(50%);
+  height: 3px;
+  background-color: #000000;
 }
 
 .card-opiniao .nome {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .card-opiniao .cidade {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
-  .card-opiniao-impar{
-   position: relative;
-   top: 70px;
+.card-opiniao-impar {
+  position: relative;
+  top: 70px;
+}
+@media (max-width: 768px) {
+  .divMaior6 {
+    width: 100%;
   }
-  @media (max-width: 768px) {
-    .divMaior6{
-        width: 100%;
-        
-    }
 
-    .opnioes-container{
-        width: 100%;
-    }
+  .opnioes-container {
+    width: 100%;
   }
+}

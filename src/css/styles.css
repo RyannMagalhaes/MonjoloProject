@@ -61,7 +61,7 @@ section h1,p{
     width: 100%;
   }
   .titulosubtitulo h1{
-    font-size: 30px;
+    font-size: 60px;
   }
   .titulosubtitulo p{
     font-size: 16px;
@@ -90,6 +90,28 @@ svg{
   width: 620px;
   height: 640px;
 }
+
+@media (max-width: 768px) {
+  .path{
+    fill:#f98f54;
+    fill:#f98f54;
+    stroke: white;
+  }
+  
+  path:hover{
+    fill: #cc4e0b;
+    transition-duration: 600ms;
+    transition-property: fill;
+  }
+  
+  .brasil svg{
+    width: 100vh;
+    /* height: 100vh; */
+    transform: scale(0.6);
+    margin-left: 20px;
+    transform-origin: top left;
+  }
+} 
 
 /*--------------------*/
 

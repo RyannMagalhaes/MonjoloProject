@@ -20,9 +20,9 @@ export default function Footer() {
                                 <div>
                                     <img src={face} alt="" />
                                 </div>
-                                <div>
+                                {/* <div>
                                     <p>Facebook</p>
-                                </div>
+                                </div> */}
                             </a>
                         </div>
                         <div className="insta">
@@ -30,9 +30,9 @@ export default function Footer() {
                                 <div>
                                     <img src={insta} alt="" />
                                 </div>
-                                <div>
+                                {/* <div>
                                     <p>Instagram</p>
-                                </div>
+                                </div> */}
                             </a>
                         </div>
                         <div className="youtube">
@@ -40,9 +40,9 @@ export default function Footer() {
                                 <div>
                                     <img src={yt} alt="" />
                                 </div>
-                                <div>
+                                {/* <div>
                                     <p>YouTube</p>
-                                </div>
+                                </div> */}
                             </a>
                         </div>
                     </div>

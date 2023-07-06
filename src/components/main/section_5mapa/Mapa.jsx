@@ -2,6 +2,7 @@ import TituloSubtitulo from "../commom/TituloSubtitulo";
 import titulosDescricoes from "../../../js/titulosDescricoesSecoes.js"
 import Brasil from "../commom/Brasil";
 import "../../../css/section5.css"
+import "../../../css/styles.css"
 
 export default function Mapa() {
     return (

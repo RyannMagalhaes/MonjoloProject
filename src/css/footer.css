@@ -2,13 +2,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 1000px;
+    text-align: center;
+    /* margin: auto; */
+    /* width: 1000px; */
     color: white;
     font-family: "Quicksand";
     font-weight: 600;
     font-size: 16px;
     padding: 10px;
+    flex-direction: row;
+}
+
+.divMaiorFooter > div{
+    width: 100%;
+    
 }
 .redesSociais{
     width: 400px;
@@ -72,5 +79,13 @@
 }
 .endereco ul li{
     text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .divMaiorFooter {
+        flex-direction: column;
+    }
+    
+
 }
 
