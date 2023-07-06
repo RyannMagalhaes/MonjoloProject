@@ -129,6 +129,10 @@
     border: 2px solid #f96131;
     border-radius: 5px;
   }
+  .container7_3{
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
 
   .container7_3 .botaoComprar {
     /* margin-left: 25%; */
