@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* margin: auto; */
-    /* width: 1000px; */
+
     color: white;
     font-family: "Quicksand";
     font-weight: 600;
@@ -19,7 +18,6 @@
 }
 .redesSociais{
     width: 400px;
-    margin-right: 20px;
 }
 .redesSociais p {
     text-align: justify;
@@ -83,9 +81,12 @@
 
 @media (max-width: 768px) {
     .divMaiorFooter {
+        justify-content: center;
         flex-direction: column;
     }
     
-
+    .txtRedes{
+        justify-content: center;
+    }
 }
 

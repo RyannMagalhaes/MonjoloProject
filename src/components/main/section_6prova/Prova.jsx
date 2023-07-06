@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import TituloSubtitulo from '../commom/TituloSubtitulo';
 import CardOpniao from '../commom/CardOpniao';
 import '../../../css/section6.css';
@@ -7,19 +8,19 @@ import titulosDescricoes from '../../../js/titulosDescricoesSecoes.js';
 import Animacao from '../commom/Animacao';
 
 export default function Prova() {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   const [opinioes, setOpinioes] = useState([]);
 
   useEffect(() => {
-    setOpinioes(opinioesData.opnioes.slice(0, opinioesData.exibir));
-  }, []);
+    const exibirOpnioes = isMobile ? 1 : opinioesData.exibir;
+    setOpinioes(opinioesData.opnioes.slice(0, exibirOpnioes));
+  }, [isMobile]);
 
   function gerarCard(opiniao, index) {
-
     return (
-
       <CardOpniao
         div
-        className={`${index % 2 == 0 ? 'card-opiniao' : 'card-opiniao-impar'}`}
+        className={`${index % 2 === 0 ? 'card-opiniao' : 'card-opiniao-impar'}`}
         relato={opiniao.relato}
         foto={opiniao.foto}
         nome={opiniao.nome}
@@ -49,4 +50,3 @@ export default function Prova() {
     </section>
   );
 }
-
