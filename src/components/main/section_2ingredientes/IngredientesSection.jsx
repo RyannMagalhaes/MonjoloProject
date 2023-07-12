@@ -6,6 +6,8 @@ import "../../../css/section2.css";
 import ingredientesJson from '../../../JSON/ingredientes.json';
 import panela from "../../../images/panela.png"
 import mandioca from "../../../images/iconMandioca.png"
+import animacao from "../../../JSON/animation_lk068s4e.json"
+import { AnimationConfig } from '../commom/AnimationConfig';
 
 
 export default function IngredientesSection() {
@@ -26,19 +28,10 @@ export default function IngredientesSection() {
             <IngredientesComponent ingredientes={ingredientes} />
           </div>
           <div className="lista2">
-            <IngredientesComponent ingredientes={ingredientes2} />
+            <IngredientesComponent ingredientes={ingredientes2} className="animacao"/>
           </div>
         </div>
-        <div className="video2">
-          <iframe
-            width="560"
-            height="315"
-
-            src={`https://www.youtube.com/embed/OvDOjat8afY`}
-            title="Embedded YouTube Video"
-            allowFullScreen
-          ></iframe>
-        </div>
+          <AnimationConfig/>
       </div>
       <div className="panelaDecoracao">
         <img src={mandioca} alt="Madioca de Decoração" className='mandioca'/>
