@@ -21,11 +21,12 @@ section h1,p{
   color: white;
 }
 
+
 .sectionlaranja hr {
   width: 700px;
   background-color: white;
   height: 3px;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px  #982A12;
   border: 0px;
   margin: auto;
 }
@@ -36,6 +37,10 @@ section h1,p{
 
 .sectionbege p{
   color: #F96131;
+}
+
+.sectionbege h2{
+  box-shadow: 1px 1px 2px black;
 }
 
 .sectionbege hr{

@@ -3,40 +3,40 @@
 
     "opnioes":[
         {
-            "relato":"Muito bom!!",
+            "relato":"A melhor que existe!! 😋😋",
             "foto":"/src/images/fotosRelato/relato1.png",
-            "nome":"Ryann",
-            "cidade":"Uberlândia - MG"
+            "nome":"Toninha",
+            "cidade":"Goiânia - GO"
         },
         {
-            "relato":"Muito bom!!",
+            "relato":"Realmente muito boa, aqui no sul nunca vi... eu não conhecia, ganhei de um amigo 👏👏👏, produto top",
             "foto":"/src/images/fotosRelato/relato2.png",
-            "nome":"Ryann",
+            "nome":"Camilo",
             "cidade":"Uberlândia - MG"
         },
         {
-            "relato":"Muito bom!!",
+            "relato":"Eu amo! Mas nunca encontrei aqui em Brasília. Consigo em SC e não aqui. 😮",
             "foto":"/../../../images/fotosRelato/relato1.png",
-            "nome":"Ryann",
-            "cidade":"Uberlândia - MG"
+            "nome":"Marina",
+            "cidade":"Belo Horizonte - MG"
+        },
+        {
+            "relato":"Simplesmente a melhor 💖",
+            "foto":"../../../images/fotosRelato/relato1.png",
+            "nome":"Daniela",
+            "cidade":"Itumbiara - GO"
+        },
+        {
+            "relato":"Melhor farinha de todas!!! 😍😍😍",
+            "foto":"../../../images/fotosRelato/relato1.png",
+            "nome":"Rosana",
+            "cidade":"Balneário Camboriú - MG"
         },
         {
             "relato":"Muito bom!!",
             "foto":"../../../images/fotosRelato/relato1.png",
-            "nome":"Ryann",
-            "cidade":"Uberlândia - MG"
-        },
-        {
-            "relato":"Muito bom!!",
-            "foto":"../../../images/fotosRelato/relato1.png",
-            "nome":"Ryann",
-            "cidade":"Uberlândia - MG"
-        },
-        {
-            "relato":"Muito bom!!",
-            "foto":"../../../images/fotosRelato/relato1.png",
-            "nome":"Cayke",
-            "cidade":"Uberlândia - MG"
+            "nome":"Gustavo",
+            "cidade":"Brasília - DF"
         }
     ]
 }
