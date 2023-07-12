@@ -109,4 +109,13 @@
         align-items: center;
         margin: 0 auto;
     }
+
+    .divMaior4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100px;
+        padding: 50px;
+    }
 }

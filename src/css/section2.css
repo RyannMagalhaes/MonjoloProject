@@ -1,183 +1,184 @@
 .section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
-    color: white;
-    font-family: "Quicksand";
-    font-weight: 600;
-    position: relative;
-    z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  color: white;
+  font-family: "Quicksand";
+  font-weight: 600;
+  position: relative;
+  z-index: -1;
 }
 
 .panelaDecoracao .panela {
-    position: absolute;
-    bottom: -30px;
-    left: 0;
-    z-index: 0;
-    width: 150px;
-    height: auto;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  z-index: 0;
+  width: 150px;
+  height: auto;
 }
 
 .panelaDecoracao .panela {
-    width: 150px;
-    height: auto;
+  width: 150px;
+  height: auto;
 }
 
 .panelaDecoracao .mandioca,
 .mandioca2 {
-    width: 120px;
-    margin-top: -20px;
-    height: auto;
+  width: 120px;
+  margin-top: -20px;
+  height: auto;
 }
 
 .panelaDecoracao .mandioca {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.panelaDecoracao .mandioca2 {
+  position: absolute;
+  top: 20%;
+  right: 20px;
+  margin-right: -40px;
+  z-index: 1;
+  transform: rotate(50deg);
+}
+
+.divMaior2 {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tituloSub2 {
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  margin-bottom: 20px;
+}
+
+.tituloSub2 h1 {
+  font-size: 60px;
+}
+
+.tituloSub2 p {
+  font-size: 18px;
+  font-weight: 600;
+  text-shadow: 6px 6px 6px black;
+  margin: 0;
+}
+
+.ingredientes img {
+  display: block;
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+  filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.2));
+}
+
+.ingredientes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ingredientes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista2 {
+  margin-left: 50px;
+}
+
+.ingredientes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ingredienteTxt {
+  display: flex;
+  align-items: center;
+}
+
+.ingredienteTxt p {
+  margin: 0;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.divMaior2 .video2 {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.video2 iframe {
+  border-radius: 10px;
+  border: 5px solid #000;
+  box-shadow: 4px 4px 1px 0px #992a12 inset;
+}
+
+@media (max-width: 768px) {
+  .tituloSub2 {
+    color: white;
+    text-shadow: 3px 3px 4px black;
+    margin-bottom: 20px;
+  }
+
+  .tituloSub2 h1 {
+    font-size: 32px;
+  }
+  .panelaDecoracao .mandioca2 {
+    /* right: 30px; */
+    visibility: hidden;
+    position: absolute;
+  }
+  .tituloSub2 p {
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 6px 6px 6px black;
+    margin: 0;
+  }
+  .panelaDecoracao .panela {
+    /* width: 80px;
+    margin-bottom: 6px;
+    left: 20px; */
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .panelaDecoracao .mandioca,
+  .mandioca2 {
+    /* width: 50px; */
+    visibility: hidden;
+    position: absolute;
+  }
+  .ingredientes {
+    padding: 0px 20px;
+  }
+
+  .panelaDecoracao .mandioca {
     position: absolute;
     top: 10px;
     left: 10px;
     z-index: 1;
-}
+  }
 
-.panelaDecoracao .mandioca2 {
-    position: absolute;
-    top: 20%;
-    right: 20px;
-    margin-right: -40px;
-    z-index: 1;
-    transform: rotate(50deg);
-}
-
-.divMaior2 {
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tituloSub2 {
-    color: white;
-    text-shadow: 3px 3px 4px black;
-    margin-bottom: 20px;
-}
-
-.tituloSub2 h1 {
-    font-size: 60px;
-}
-
-.tituloSub2 p {
-    font-size: 18px;
-    font-weight: 600;
-    text-shadow: 6px 6px 6px black;
-    margin: 0;
-}
-
-.ingredientes img {
-    display: block;
-    width: 27px;
-    height: 27px;
-    margin-right: 5px;
-    filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.2));
-}
-
-.ingredientes li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-
-}
-
-.ingredientes ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.lista2 {
-    margin-left: 50px;
-}
-
-.ingredientes {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.ingredienteTxt {
-    display: flex;
-    align-items: center;
-}
-
-.ingredienteTxt p {
-    margin: 0;
-    margin-bottom: 5px;
-    text-shadow: 2px 2px 3px black;
-}
-
-.divMaior2 .video2 {
-    padding: 10px;
-    margin-top: 30px;
-}
-
-.video2 iframe {
-    border-radius: 10px;
-    border: 5px solid #000;
-    box-shadow: 4px 4px 1px 0px #992A12 inset;
-}
-
-@media (max-width: 768px) {
-   
-    .tituloSub2 {
-        color: white;
-        text-shadow: 3px 3px 4px black;
-        margin-bottom: 20px;
-    }
-
-    .tituloSub2 h1 {
-        font-size: 32px;
-    }
-    .panelaDecoracao .mandioca2 {
-        right: 30px
-    }
-    .tituloSub2 p {
-        font-size: 15px;
-        font-weight: 600;
-        text-shadow: 6px 6px 6px black;
-        margin: 0;
-    }
-    .panelaDecoracao .panela {
-        width: 80px;
-        margin-bottom: 6px;
-        left: 20px;
-    }
-    
-    .panelaDecoracao .mandioca,
-    .mandioca2 {
-        width: 50px;
-    }
-    .ingredientes{
-        padding: 0px 20px;
-    }
-    
-    .panelaDecoracao .mandioca {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        z-index: 1;
-    }
-     
-    .video2 iframe {
-        margin-top: -40px;
-        width: 350px;
-        height: 250px;
-
-    }
-    .ingredientes img {
-        width: 20px;
-        height: 20px;
-    }
-    .lista2 {
-        margin-left: 0px;
-        
-    }
-  
+  .video2 iframe {
+    margin-top: -40px;
+    width: 30px;
+    height: 20px;
+  }
+  .ingredientes img {
+    width: 20px;
+    height: 20px;
+  }
+  .lista2 {
+    margin-left: 0px;
+  }
 }

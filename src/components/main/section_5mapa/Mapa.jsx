@@ -3,6 +3,7 @@ import titulosDescricoes from "../../../js/titulosDescricoesSecoes.js"
 import Brasil from "../commom/Brasil";
 import "../../../css/section5.css"
 import "../../../css/styles.css"
+import brasil from "../../../images/imagebrasil.png";
 
 export default function Mapa() {
     return (
@@ -17,6 +18,11 @@ export default function Mapa() {
                     </div>
                     <div className="brasil">
                         <Brasil />
+                    </div>
+                    <div className="brasil2">
+                    <a href="https://munddi.com/MONJOLO">
+                        <img src={brasil} alt="" />
+                    </a>
                     </div>
 
                 </div>

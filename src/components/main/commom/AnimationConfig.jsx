@@ -9,5 +9,5 @@ export const AnimationConfig = () =>{
         animationData: animacao
     }
 
-    return <Lottie options={defaultOptions} width={650} height={355}/>
+    return <Lottie options={defaultOptions} width={200} height={355}/>
 }
