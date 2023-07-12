@@ -31,7 +31,9 @@ export default function IngredientesSection() {
             <IngredientesComponent ingredientes={ingredientes2} className="animacao"/>
           </div>
         </div>
+        <div className='video2'>
           <AnimationConfig/>
+        </div>
       </div>
       <div className="panelaDecoracao">
         <img src={mandioca} alt="Madioca de Decoração" className='mandioca'/>
