@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 999;
   transition: transform 0.4s ease-in-out;
   display: flex;
@@ -11,7 +11,7 @@
 
 .header1 ul {
   width: 100%;
-  max-width: 1300px;
+  /* max-width: 1300px; */
   display: flex;
   flex-direction: row;
   color: white;
@@ -60,6 +60,33 @@ html {
 /* Media query para ajustar o menu em telas menores */
 @media (max-width: 768px) {
   .header1 ul {
+    width: 100vw;
+    /* max-width: 414px; */
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: bold;
+    list-style: none;
+    text-shadow: 2px 2px 4px black;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    font-size: 9px;
+  }
+
+  .header1 li {
+    padding: 8px 3px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .header1 img {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  /* .header1 ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -140,5 +167,5 @@ html {
   .menu.open li {
     width: 100%;
     text-align: center;
-  }
+  } */
 }
