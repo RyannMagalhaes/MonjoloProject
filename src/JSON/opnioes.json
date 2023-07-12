@@ -1,5 +1,5 @@
 {
-    "exibir": 3,
+    "exibir": 6,
 
     "opnioes":[
         {
@@ -16,25 +16,25 @@
         },
         {
             "relato":"Eu amo! Mas nunca encontrei aqui em Brasília. Consigo em SC e não aqui. 😮",
-            "foto":"/../../../images/fotosRelato/relato1.png",
+            "foto":"/src/images/fotosRelato/relato3.png",
             "nome":"Marina",
             "cidade":"Belo Horizonte - MG"
         },
         {
             "relato":"Simplesmente a melhor 💖",
-            "foto":"../../../images/fotosRelato/relato1.png",
+            "foto":"/src/images/fotosRelato/relato4.png",
             "nome":"Daniela",
             "cidade":"Itumbiara - GO"
         },
         {
             "relato":"Melhor farinha de todas!!! 😍😍😍",
-            "foto":"../../../images/fotosRelato/relato1.png",
+            "foto":"/src/images/fotosRelato/relato5.png",
             "nome":"Rosana",
             "cidade":"Balneário Camboriú - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"../../../images/fotosRelato/relato1.png",
+            "foto":"/src/images/fotosRelato/relato6.png",
             "nome":"Gustavo",
             "cidade":"Brasília - DF"
         }
