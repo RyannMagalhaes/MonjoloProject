@@ -124,6 +124,19 @@
 }
 
 @media (max-width: 768px) {
+  .section2 {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    color: white;
+    font-family: "Quicksand";
+    font-weight: 600;
+    position: relative;
+    z-index: -1;
+  }
+
   .tituloSub2 {
     color: white;
     text-shadow: 3px 3px 4px black;
@@ -169,10 +182,9 @@
     z-index: 1;
   }
 
-  .video2 iframe {
-    margin-top: -40px;
-    width: 30px;
-    height: 20px;
+  .video2{
+    position: absolute;
+    visibility: hidden;
   }
   .ingredientes img {
     width: 20px;

@@ -3,38 +3,38 @@
 
     "opnioes":[
         {
-            "relato":"A melhor que existe!! 😋😋",
-            "foto":"/src/images/fotosRelato/relato1.png",
-            "nome":"Toninha",
-            "cidade":"Goiânia - GO"
-        },
-        {
             "relato":"Realmente muito boa, aqui no sul nunca vi... eu não conhecia, ganhei de um amigo 👏👏👏, produto top",
-            "foto":"/src/images/fotosRelato/relato2.png",
+            "foto":"/src/images/relato2.png",
             "nome":"Camilo",
             "cidade":"Uberlândia - MG"
         },
         {
-            "relato":"Eu amo! Mas nunca encontrei aqui em Brasília. Consigo em SC e não aqui. 😮",
-            "foto":"/src/images/fotosRelato/relato3.png",
+            "relato":"Incrivelmente incrível! Aqui no norte nunca vi... , ganhei de um camarada 👏👏👏, item sensacional!",
+            "foto":"/src/images/relato1.png",
+            "nome":"Toninha",
+            "cidade":"Goiânia - GO"
+        },
+        {
+            "relato":"Absolutamente fantástico! Aqui no oeste nunca vi... fiquei de queixo caído, ganhei de um colega 👏👏👏!",
+            "foto":"/src/images/relato3.png",
             "nome":"Marina",
             "cidade":"Belo Horizonte - MG"
         },
         {
             "relato":"Simplesmente a melhor 💖",
-            "foto":"/src/images/fotosRelato/relato4.png",
+            "foto":"/src/images/relato4.png",
             "nome":"Daniela",
             "cidade":"Itumbiara - GO"
         },
         {
             "relato":"Melhor farinha de todas!!! 😍😍😍",
-            "foto":"/src/images/fotosRelato/relato5.png",
+            "foto":"/src/images/relato5.png",
             "nome":"Mauricio",
             "cidade":"Balneário Camboriú - MG"
         },
         {
             "relato":"Muito bom!!",
-            "foto":"/src/images/fotosRelato/relato6.png",
+            "foto":"/src/images/relato6.png",
             "nome":"Gustavo",
             "cidade":"Brasília - DF"
         }

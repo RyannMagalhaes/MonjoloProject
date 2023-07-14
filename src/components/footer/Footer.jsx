@@ -16,7 +16,7 @@ export default function Footer() {
                     </div>
                     <div className="txtRedes">
                         <div className="face">
-                            <a href="https://www.facebook.com">
+                            <a href="https://www.facebook.com/profile.php?id=100063537341957&mibextid=LQQJ4d">
                                 <div>
                                     <img src={face} alt="" />
                                 </div>
@@ -26,7 +26,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <div className="insta">
-                            <a href="https://www.instagram.com">
+                            <a href="https://instagram.com/monjoloalimentos?igshid=OGIzYTJhMTRmYQ==">
                                 <div>
                                     <img src={insta} alt="" />
                                 </div>
@@ -36,7 +36,7 @@ export default function Footer() {
                             </a>
                         </div>
                         <div className="youtube">
-                            <a href="https://www.youtube.com">
+                            <a href="https://youtube.com/@monjoloalimentos5026">
                                 <div>
                                     <img src={yt} alt="" />
                                 </div>
