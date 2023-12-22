@@ -1,43 +1,30 @@
 {
-    "exibir": 3,
+  "exibir": 3,
 
-    "opnioes":[
-        {
-            "relato":"Realmente muito boa, aqui no sul nunca vi... eu não conhecia, ganhei de um amigo 👏👏👏, produto top",
-            "foto":"/src/images/relato2.png",
-            "nome":"Camilo",
-            "cidade":"Uberlândia - MG"
-        },
-        {
-            "relato":"Incrivelmente incrível! Aqui no norte nunca vi... , ganhei de um camarada 👏👏👏, item sensacional!",
-            "foto":"/src/images/relato1.png",
-            "nome":"Toninha",
-            "cidade":"Goiânia - GO"
-        },
-        {
-            "relato":"Absolutamente fantástico! Aqui no oeste nunca vi... fiquei de queixo caído, ganhei de um colega 👏👏👏!",
-            "foto":"/src/images/relato3.png",
-            "nome":"Marina",
-            "cidade":"Belo Horizonte - MG"
-        },
-        {
-            "relato":"Simplesmente a melhor 💖",
-            "foto":"/src/images/relato4.png",
-            "nome":"Daniela",
-            "cidade":"Itumbiara - GO"
-        },
-        {
-            "relato":"Melhor farinha de todas!!! 😍😍😍",
-            "foto":"/src/images/relato5.png",
-            "nome":"Mauricio",
-            "cidade":"Balneário Camboriú - MG"
-        },
-        {
-            "relato":"Muito bom!!",
-            "foto":"/src/images/relato6.png",
-            "nome":"Gustavo",
-            "cidade":"Brasília - DF"
-        }
-    ]
+  "opnioes": [
+    {
+      "relato": "Aqui em casa é presença garantida em todas as refeições! ♨️",
+      "foto": "/src/images/andreia.jpeg",
+      "nome": "Andreia",
+      "cidade": "Minas Gerais"
+    },
+    {
+      "relato": "- Simplesmente deliciosa! Sabor de comida de casa! 🥰",
+      "foto": "/src/images/virginia.jpeg",
+      "nome": "Virginia",
+      "cidade": "Santa Catarina"
+    },
+    {
+      "relato": "Só abrir o pacotinho e não consigo parar de comer! 😋",
+      "foto": "/src/images/alberto.jpeg",
+      "nome": "Alberto",
+      "cidade": "Roraima"
+    },
+    {
+      "relato": "MELHOR FAROFA DO BRASIL! 💖",
+      "foto": "/src/images/fernando.jpeg",
+      "nome": "Fernando",
+      "cidade": "Goiás"
+    }
+  ]
 }
-
